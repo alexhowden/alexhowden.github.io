@@ -1,1 +1,142 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212; /* Dark Background */
+    color: #e0e0e0; /* Light Gray Text */
+    margin: 0;
+    padding: 0;
+}
 
+a {
+    text-decoration: none;
+    color: #e0e0e0; /* Light Gray Links */
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Header Styles */
+header {
+    background-color: #000000; /* Pure Black Background for Header */
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: #0d8bf2; /* Bright Blue Links */
+    font-size: 18px;
+}
+
+.header {
+    padding: 40px 0;
+}
+
+.header h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+    color: #0d8bf2; /* Bright Blue Header */
+}
+
+/* Social Links */
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-links i {
+    font-size: 32px;
+    color: #e0e0e0; /* Light Gray Icons */
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.social-links i:hover {
+    color: #0d8bf2; /* Change to Blue on Hover */
+    transform: scale(1.2);
+}
+
+/* About Section */
+#about {
+    background-color: #1f1f1f; /* Dark Gray Background for About */
+    padding: 50px;
+    text-align: center;
+}
+
+#about img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10%;
+    margin-top: 20px;
+}
+
+/* Projects Section */
+#projects {
+    background-color: #121212; /* Dark Background for Projects */
+    padding: 50px;
+    text-align: center;
+}
+
+.project-item {
+    background-color: #1f1f1f; /* Dark Card Background */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    margin: 20px 0;
+    padding: 20px;
+}
+
+.project-item h3 {
+    font-size: 24px;
+    color: #0d8bf2; /* Bright Blue Project Title */
+}
+
+.project-item p {
+    font-size: 18px;
+}
+
+.project-item ul {
+    padding: 10px 0;
+}
+
+.project-item ul li {
+    display: inline;
+    margin: 0 5px;
+    padding: 2px 8px;
+    background-color: #0d8bf2; /* Blue Pill Background */
+    border-radius: 5px;
+    color: #fff; /* White Text on Pills */
+}
+
+.project-item a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #0d8bf2; /* Bright Blue Links */
+    font-weight: bold;
+    border: 2px solid #0d8bf2; /* Blue Border */
+    padding: 5px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.project-item a:hover {
+    background-color: #0d8bf2; /* Blue Background on Hover */
+    color: #ffffff; /* White Text on Hover */
+}
+
+/* Footer Styles */
+footer {
+    background-color: #1f1f1f; /* Dark Footer Background */
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}

@@ -3,26 +3,91 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home Page</title>
+    <title>Alex Howden | Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- External CSS for styling -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- Boxicons Script -->
   </head>
   <body>
-    <!--This is a comment-->
-    <h1>Welcome to my website</h1>
-    <hr />
-    <a href="page2.html" target="_blank">Go to page 2</a>
-    <a href="mailto:howden@umich.edu" target="_blank">Contact me</a>
-    <a href="https://linkedin.com/in/alexhowden" target="_blank">Linkedin</a>
-    <a href="https://github.com/alexhowden" target="_blank">Github</a>
-    <a href="https://alexhowden.github.io/images/coolbg.jpg" target="_blank"
-      >Cool background image</a
-    >
-    <br />
-    <a href=""></a>
-    <img
-      src="images/coolbg.jpg"
-      width="500"
-      alt="This is a cool background image"
-      title="easter egg"
-    />
+    <!-- Header Section -->
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+        </ul>
+      </nav>
+      <div class="header">
+        <h1>Alex Howden</h1>
+        <div class="social-links">
+          <a href="https://github.com/alexhowden" target="_blank">
+            <i class="bx bxl-github"></i>
+          </a>
+          <a href="https://linkedin.com/in/alexhowden" target="_blank">
+            <i class="bx bxl-linkedin-square"></i>
+          </a>
+          <!-- <a href="path-to-your-resume.pdf" target="_blank">
+            <i class="bx bxs-file"></i>
+          </a> -->
+          <a href="mailto:howden@umich.edu">
+            <i class="bx bx-envelope"></i>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        I am currently a freshman at the University of Michigan studying
+        Computer Science. My interests include software development, prompt
+        engineering, and process automation.
+      </p>
+      <img src="./images/profile_pic.jpg" alt="Your Photo" />
+      <!-- Optional photo -->
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <h2>My Projects</h2>
+      <div class="project-item">
+        <h3>Content-Aware Image Resizer</h3>
+        <p>
+          Built an image resizing program that uses a seam carving algorithm for
+          content-aware resizing. The algorithm finds and removes seams in the
+          image that pass through the least important pixels.
+        </p>
+        <p>
+          Utilized pointers, strings, streams, IO, and abstract data types;
+          handled errors and extensively tested and debugged code.
+        </p>
+        <ul class="tools-used">
+          <li>C++</li>
+        </ul>
+      </div>
+
+      <div class="project-item">
+        <h3>ParseCal</h3>
+        <p>in progress</p>
+        <ul class="tools-used">
+          <li>Python</li>
+          <li>Google Calendar API</li>
+        </ul>
+        <a href="https://github.com/alexhowden/ParseCal" target="_blank"
+          >View Project</a
+        >
+      </div>
+      <!-- Add more project items as needed -->
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+      <p>&copy; 2024 Your Name. All Rights Reserved.</p>
+    </footer>
   </body>
 </html>
